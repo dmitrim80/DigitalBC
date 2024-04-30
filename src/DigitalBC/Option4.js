@@ -21,7 +21,7 @@ export default function Option4() {
                 </div>
 
                 <div className="email-link-box4"><a href="mailto:dmitri.m80@gmail.com" 
-                target="_blank2" className="email4">mailto:dmitri.m80@gmail.com</a></div>
+                target="_blank2" className="email4">dmitri.m80@gmail.com</a></div>
                 
                 <div className="buttons-box4">
                     <button className="button-email4">

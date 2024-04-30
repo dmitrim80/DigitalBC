@@ -8,11 +8,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Login/>
-      {/* <Option1/>
-      <Option2/>
-      <Option3/>
-      <Option4/> */}
+      <div className='main-row'>
+        <div className='main-col'>
+        <Option1/>
+        <Option3/>
+        </div>
+        <div className='main-col'>
+        <Option2/>
+        <Option4/>
+        </div>
+      </div>
     </div>
   );
 }

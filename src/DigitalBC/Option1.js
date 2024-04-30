@@ -9,9 +9,9 @@ import imagepath6 from "../images/GitHubIcon.svg";
 export default function Option1(props) {
   return (
     <div className="box">
-      <div className="toggler--slider-white" onClick={props.toggleDarkMode}>
+      {/* <div className="toggler--slider-white" onClick={props.toggleDarkMode}>
         <div className="toggler--slider--circle-black"></div>
-      </div>
+      </div> */}
 
       <div className="child-top-box" />
 
