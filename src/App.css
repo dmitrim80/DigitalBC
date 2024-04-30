@@ -637,6 +637,7 @@ body {
   background-color:#23252C;
   width: 178px;
   margin-top: 8.81px;
+  
 }
 .email-link-box2{
 	height: 19px;
@@ -667,9 +668,11 @@ body {
   background-color:#F5F5F5;
   width: 178px;
   margin-top: 8.81px;
+  
 }
 .email1{
   color: #FFFFFF;
+  text-decoration: none;
 }
 .email2{
   color: #4A4E74;
@@ -795,6 +798,7 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 114.286% */
+  
 }
 
 .button-linkedin{
@@ -809,6 +813,7 @@ body {
   width: 115px;
   justify-content: center;
   margin-top: 15px;
+  text-decoration: none;
 }
 .button-linkedin2{
   align-items: center;
@@ -822,6 +827,7 @@ body {
   width: 115px;
   justify-content: center;
   margin-top: 15px;
+  
 }
 .button-linkedin-text{
   color: #ffffff;
@@ -834,6 +840,7 @@ body {
   line-height: 16px;
   top: 0;
   white-space: nowrap;
+  text-decoration: none;
 }
 .button-linkedin-text2{
   color: #ffffff;
@@ -846,6 +853,7 @@ body {
   line-height: 16px;
   top: 0;
   white-space: nowrap;
+  
 }
 
 .midbox-about-title{
@@ -1007,4 +1015,8 @@ body {
 }
 .email-button{
   color: #1A1B21;
+}
+.email-button,
+.button-linkedin a {
+text-decoration: none;
 }

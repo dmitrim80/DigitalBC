@@ -39,12 +39,12 @@ const Login = () => {
               <button className="button-email">
                   <div className="mail-icon"><img src={imagepath}></img></div>
                   <a href="mailto:dmitri.m80@gmail.com" target="_blank" className="email-button">
-                  <div className="button-text">Email</div></a>
+                  <div className="button-text" id='btn-text'>Email</div></a>
               </button>
               <button className="button-linkedin">
                   <div className="linkedin-icon"><img src={imagepath2}></img></div>
                   <a href="https://www.linkedin.com/in/dmitri-morozov-260b2920/">
-                  <div className="button-linkedin-text">LinkedIn</div>
+                  <div className="button-linkedin-text" id='btn-text'>LinkedIn</div>
                   </a>
               </button>
           </div>
